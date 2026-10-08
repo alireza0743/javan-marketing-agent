@@ -50,7 +50,3 @@ select = ["E", "F", "I", "B", "UP"]
 python_version = "3.11"
 strict = true
 """
-path = "/mnt/data/pyproject.toml"
-with open(path, "w", encoding="utf-8") as f:
-    f.write(content)
-print(path)
